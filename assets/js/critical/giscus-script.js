@@ -2,7 +2,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     function setTheme() {
         const theme = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'dark' : 'light';
-        const theme_url = theme === 'dark' ? 'https://raw.githubusercontent.com/maker-center/mod-giscus/refs/heads/main/styles/themes/dark.css' : 'https://raw.githubusercontent.com/maker-center/mod-giscus/refs/heads/main/styles/themes/light.css';
+        const theme_url = theme === 'dark' ? 'https://cdn.jsdelivr.net/gh/maker-center/mod-giscus/styles/themes/dark.css' : 'https://cdn.jsdelivr.net/gh/maker-center/mod-giscus/styles/themes/light.css';
         
         const giscusScript = document.getElementById('giscus-script');
         if (!giscusScript) return;
