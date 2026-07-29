@@ -110,3 +110,7 @@ main .gsc-loading-image {
 .gsc-comments > .gsc-timeline {
   border-radius: 0;
 }
+
+[class*="rounded"] {
+  border-radius: 0;
+}
