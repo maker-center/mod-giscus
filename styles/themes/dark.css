@@ -99,7 +99,7 @@ main .gsc-loading-image {
 }
 
 /*! Custom CSS */
-.gsc-left-header > em {
+em {
   visibility: hidden;
 }
 
