@@ -34,56 +34,64 @@ main {
   --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
   --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
-  --color-btn-text: #c9d1d9;
-  --color-btn-bg: #21262d;
-  --color-btn-border: rgb(240 246 252 / 10%);
+
+  --color-btn-text: #d9dcde; /* light suavizado para dark mode */
+  --color-btn-bg: #2b2b2b; /* dark clareado (superfície) */
+  --color-btn-border: rgb(248 249 250 / 10%); /* light */
   --color-btn-shadow: 0 0 transparent;
   --color-btn-inset-shadow: 0 0 transparent;
-  --color-btn-hover-bg: #30363d;
-  --color-btn-hover-border: #8b949e;
-  --color-btn-active-bg: hsl(212deg 12% 18% / 100%);
-  --color-btn-active-border: #6e7681;
-  --color-btn-selected-bg: #161b22;
+  --color-btn-hover-bg: #383838;
+  --color-btn-hover-border: #8a8f94; /* secondary clareado */
+  --color-btn-active-bg: hsl(0deg 0% 18% / 100%);
+  --color-btn-active-border: #6c757d; /* secondary */
+  --color-btn-selected-bg: #1e1e1e;
+
   --color-btn-primary-text: #fff;
-  --color-btn-primary-bg: #238636;
-  --color-btn-primary-border: rgb(240 246 252 / 10%);
+  --color-btn-primary-bg: #0088cc; /* primary escurecido p/ dark bg */
+  --color-btn-primary-border: rgb(248 249 250 / 10%);
   --color-btn-primary-shadow: 0 0 transparent;
   --color-btn-primary-inset-shadow: 0 0 transparent;
-  --color-btn-primary-hover-bg: #2ea043;
-  --color-btn-primary-hover-border: rgb(240 246 252 / 10%);
-  --color-btn-primary-selected-bg: #238636;
+  --color-btn-primary-hover-bg: #1a9ce0; /* primary levemente clareado no hover */
+  --color-btn-primary-hover-border: rgb(248 249 250 / 10%);
+  --color-btn-primary-selected-bg: #0088cc;
   --color-btn-primary-selected-shadow: 0 0 transparent;
   --color-btn-primary-disabled-text: rgb(255 255 255 / 50%);
-  --color-btn-primary-disabled-bg: rgb(35 134 54 / 60%);
-  --color-btn-primary-disabled-border: rgb(240 246 252 / 10%);
-  --color-action-list-item-default-hover-bg: rgb(177 186 196 / 12%);
-  --color-segmented-control-bg: rgb(110 118 129 / 10%);
-  --color-segmented-control-button-bg: #0d1117;
-  --color-segmented-control-button-selected-border: #6e7681;
-  --color-fg-default: #e6edf3;
-  --color-fg-muted: #7d8590;
-  --color-fg-subtle: #6e7681;
-  --color-canvas-default: #0d1117;
-  --color-canvas-overlay: #161b22;
-  --color-canvas-inset: #010409;
-  --color-canvas-subtle: #161b22;
-  --color-border-default: #30363d;
-  --color-border-muted: #21262d;
-  --color-neutral-muted: rgb(110 118 129 / 40%);
-  --color-accent-fg: #2f81f7;
-  --color-accent-emphasis: #1f6feb;
-  --color-accent-muted: rgb(56 139 253 / 40%);
-  --color-accent-subtle: rgb(56 139 253 / 10%);
-  --color-success-fg: #3fb950;
-  --color-attention-fg: #d29922;
-  --color-attention-muted: rgb(187 128 9 / 40%);
-  --color-attention-subtle: rgb(187 128 9 / 15%);
-  --color-danger-fg: #f85149;
-  --color-danger-muted: rgb(248 81 73 / 40%);
-  --color-danger-subtle: rgb(248 81 73 / 10%);
+  --color-btn-primary-disabled-bg: rgb(0 136 204 / 60%);
+  --color-btn-primary-disabled-border: rgb(248 249 250 / 10%);
+
+  --color-action-list-item-default-hover-bg: rgb(108 117 125 / 15%); /* secondary */
+  --color-segmented-control-bg: rgb(108 117 125 / 12%); /* secondary */
+  --color-segmented-control-button-bg: #0a0a0a; /* dark */
+  --color-segmented-control-button-selected-border: #6c757d; /* secondary */
+
+  --color-fg-default: #e9ecef; /* light suavizado */
+  --color-fg-muted: #8a9199; /* secondary clareado */
+  --color-fg-subtle: #767d84;
+  --color-canvas-default: #0a0a0a; /* dark */
+  --color-canvas-overlay: #161616;
+  --color-canvas-inset: #000000; /* dark puro */
+  --color-canvas-subtle: #161616;
+  --color-border-default: #383838;
+  --color-border-muted: #2b2b2b;
+  --color-neutral-muted: rgb(108 117 125 / 40%); /* secondary */
+
+  --color-accent-fg: #3d9fff; /* primary clareado p/ contraste em dark */
+  --color-accent-emphasis: #0088cc; /* primary */
+  --color-accent-muted: rgb(0 170 255 / 40%); /* primary */
+  --color-accent-subtle: rgb(0 170 255 / 10%);
+
+  --color-success-fg: #56d6c1; /* success clareado p/ contraste em dark */
+  --color-attention-fg: #ffcf66; /* warning clareado p/ contraste em dark */
+  --color-attention-muted: rgb(255 191 64 / 40%); /* warning */
+  --color-attention-subtle: rgb(255 191 64 / 15%);
+
+  --color-danger-fg: #ff7a4d; /* danger clareado p/ contraste em dark */
+  --color-danger-muted: rgb(191 64 0 / 40%); /* danger */
+  --color-danger-subtle: rgb(191 64 0 / 10%);
+
   --color-primer-shadow-inset: 0 0 transparent;
-  --color-scale-gray-7: #21262d;
-  --color-scale-blue-8: #0c2d6b;
+  --color-scale-gray-7: #2b2b2b; /* secondary escurecido */
+  --color-scale-blue-8: #003a5c; /* primary escurecido */
 
   /*! Extensions from @primer/css/alerts/flash.scss */
   --color-social-reaction-bg-hover: var(--color-scale-gray-7);
@@ -99,6 +107,6 @@ main .gsc-loading-image {
 }
 
 /*! Custom CSS */
-em {
+/*em {
   visibility: hidden;
-}
+}*/
