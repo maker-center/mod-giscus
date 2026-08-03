@@ -110,3 +110,13 @@ em {
 .gsc-comments > .gsc-timeline {
   border-radius: 0;
 }
+
+.gsc-social-reaction-summary-item.has-reacted {
+  background-color: none;
+  color: inherit;
+}
+
+.gsc-direct-reaction-button, .gsc-social-reaction-summary-item {
+  border-radius: 0;
+  border-width: 0;
+}
