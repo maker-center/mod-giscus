@@ -111,12 +111,20 @@ em {
   border-radius: 0;
 }
 
-.gsc-social-reaction-summary-item.has-reacted {
-  background-color: none;
-  color: inherit;
+.gsc-social-reaction-summary-item .has-reacted {
+  background-color: none !important;
+  color: inherit !important;
 }
 
 .gsc-direct-reaction-button, .gsc-social-reaction-summary-item {
-  border-radius: 0;
-  border-width: 0;
+  border-radius: 0 !important;
+  border-width: 0 !important;
+}
+
+[class*="rounded"] {
+  border-radius: 0 !important;
+  border-start-start-radius: 0 !important;
+  border-start-end-radius: 0 !important;
+  border-end-start-radius: 0 !important;
+  border-end-end-radius: 0 !important;
 }
